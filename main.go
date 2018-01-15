@@ -16,11 +16,11 @@ import (
 
 	"github.com/alexflint/go-arg"
 
+	"github.com/kaddiya/xo/internal"
+	"github.com/kaddiya/xo/models"
 	"github.com/knq/dburl"
-	"github.com/knq/xo/internal"
-	"github.com/knq/xo/models"
 
-	_ "github.com/knq/xo/loaders"
+	_ "github.com/kaddiya/xo/loaders"
 	_ "github.com/knq/xoutil"
 )
 
